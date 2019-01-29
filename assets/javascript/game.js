@@ -28,7 +28,7 @@ $(document).ready(function() {
   
       var type = $(this).attr("data-type");
       // don't forget that to limit the number of responses to 10 you need to add "&limit10" to your api key
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=7LxU1e4Kmw3Eqc8VBvrv5qmaeMl3LBms&limit=10";
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=7LxU1e4Kmw3Eqc8VBvrv5qmaeMl3LBms&limit=10";
   
       $.ajax({
         url: queryURL,
